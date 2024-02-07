@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Wed Feb 07 2024 13:44:01 GMT+0530 (India Standard Time)|
+|**Generation Date and Time**<br>Wed Feb 07 2024 14:38:32 GMT+0530 (India Standard Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.12.3|
 |**Generation Platform**<br>Visual Studio Code|
@@ -16,7 +16,7 @@
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
-|**Main Entity**<br>BusinessPartner|
+|**Main Entity**<br>Business_Partner|
 
 ## businesspartner
 

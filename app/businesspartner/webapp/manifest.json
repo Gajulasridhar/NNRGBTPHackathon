@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.12.3",
-      "toolsId": "32221a46-b8ea-4ac2-9196-a6d300781435"
+      "toolsId": "877994cf-c696-488a-a2ce-e7f37ad6fdfd"
     },
     "dataSources": {
       "mainService": {
@@ -87,42 +87,42 @@
       "routes": [
         {
           "pattern": ":?query:",
-          "name": "BusinessPartnerList",
-          "target": "BusinessPartnerList"
+          "name": "Business_PartnerList",
+          "target": "Business_PartnerList"
         },
         {
-          "pattern": "BusinessPartner({key}):?query:",
-          "name": "BusinessPartnerObjectPage",
-          "target": "BusinessPartnerObjectPage"
+          "pattern": "Business_Partner({key}):?query:",
+          "name": "Business_PartnerObjectPage",
+          "target": "Business_PartnerObjectPage"
         }
       ],
       "targets": {
-        "BusinessPartnerList": {
+        "Business_PartnerList": {
           "type": "Component",
-          "id": "BusinessPartnerList",
+          "id": "Business_PartnerList",
           "name": "sap.fe.templates.ListReport",
           "options": {
             "settings": {
-              "contextPath": "/BusinessPartner",
+              "contextPath": "/Business_Partner",
               "variantManagement": "Page",
               "navigation": {
-                "BusinessPartner": {
+                "Business_Partner": {
                   "detail": {
-                    "route": "BusinessPartnerObjectPage"
+                    "route": "Business_PartnerObjectPage"
                   }
                 }
               }
             }
           }
         },
-        "BusinessPartnerObjectPage": {
+        "Business_PartnerObjectPage": {
           "type": "Component",
-          "id": "BusinessPartnerObjectPage",
+          "id": "Business_PartnerObjectPage",
           "name": "sap.fe.templates.ObjectPage",
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "contextPath": "/BusinessPartner"
+              "contextPath": "/Business_Partner"
             }
           }
         }

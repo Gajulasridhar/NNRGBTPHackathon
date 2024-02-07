@@ -18,6 +18,7 @@
     "watch-businesspartner": "cds watch --open businesspartner/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
+    "app/businesspartner",
     "app/businesspartner"
   ]
 }
